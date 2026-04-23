@@ -2,5 +2,8 @@
 
 int main(void)
 {
-    printf("hello Gadiel! \n");
+    char name[50];
+    printf("Enter your name:");
+    scanf("%s", &name);
+    printf("hello %s!\n",name);
 }
