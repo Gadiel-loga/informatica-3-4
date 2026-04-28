@@ -8,5 +8,8 @@ int main(void){
     scanf("%d", &length);
     printf("Enter the width for the triangle: \n");
     scanf("%d", &width);
-    int Area =
+    int Area =length*width;
+    int Perimeter = (length+width)*2;
+    printf("Area = %d\n",Area);
+    printf("perimeter = %d\n", Perimeter);
 }
