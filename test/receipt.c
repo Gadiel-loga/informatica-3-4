@@ -16,6 +16,7 @@ int main(void)
     printf("Supermarket ta' Walimai\n");
     printf("**********************************\n");
     printf("Item\tQuantity\tPrice\n");
+    
 
 
 }
