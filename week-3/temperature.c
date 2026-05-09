@@ -7,9 +7,9 @@ printf("Enter the temperature for Fahrenheit: \n");
 scanf("%f", &temperature);
 float C = (temperature-32)/1.8;
 printf("%.2f°F is equal to %.2f°C\n",temperature, C);
-if (C <= 0) {
+if (C <= 0 == 10) {
     printf("%.2f is ❄️ Freezing weather.\n", C);
-}
+} else
 if (C >= 0) {
     printf("%.2f is 🥶 Very cold weather.\n", C);
 }
