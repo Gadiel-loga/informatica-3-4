@@ -16,7 +16,7 @@ int main(void){
 }else if user_response ==2){
 f_to_c();
 }else{
-prin(invalid option \n")
+printf("invalid option \n");
 
 //2. Define
 void c_to_f(void){
