@@ -6,62 +6,64 @@ void multiplication(void);
 void division(void);
 
 int main(void){
-    printf("add \n");
-    printf("sub \n");
-    printf("mul \n");
-    printf("div \n");
+    printf("Calculator to calculate \n");
+    printf("1. Addition \n2. Subtraction \n3. Multiplication \n4. Division \n");
     printf("Enter your option: ");
     int user_response;
     scanf("%d", &user_response);
 
-        if (user_response ==1){
-    addition();
+    if (user_response ==1){
+        addition();
     }else if (user_response ==2){
-    subtraction();
+        subtraction();
     }else if (user_response ==3){
-    multiplication();
+        multiplication();
     }else if (user_response ==4){
-    division();
-    }else{printf("invalid option \n");}
-
+        division();
+    }else{printf("invalid option \n");
+}
+}
 void addition(void){
-int a;
-int b;
+float a;
+float b;
 printf("Number 1: \n");
-scanf("%d", &a);
+scanf("%f", &a);
 printf("Number 2: \n");
-scanf("%d", &b);
-int Result = a + b;
-printf("Result = %d\n", Result);
+scanf("%f", &b);
+float Result = a + b;
+printf("Result = %f\n", Result);
 }
 void subtraction(void){
-int a;
-int b;
+float a;
+float b;
 printf("Number 1: \n");
-scanf("%d", &a);
+scanf("%f", &a);
 printf("Number 2: \n");
-scanf("%d", &b);
-int Result = a - b;
-printf("Result = %d\n", Result);
+scanf("%f", &b);
+float Result = a - b;
+printf("Result = %f\n", Result);
 }
 void multiplication(void){
-int a;
-int b;
+float a;
+float b;
 printf("Number 1: \n");
-scanf("%d", &a);
+scanf("%f", &a);
 printf("Number 2: \n");
-scanf("%d", &b);
-int Result = a * b;
-printf("Result = %d\n", Result);
+scanf("%f", &b);
+float Result = a * b;
+printf("Result = %f\n", Result);
 }
 void division(void){
-int a;
-int b;
+float a;
+float b;
 printf("Number 1: \n");
-scanf("%d", &a);
+scanf("%f", &a);
 printf("Number 2: \n");
-scanf("%d", &b);
-int Result = a / b;
-printf("Result = %d\n", Result);
+scanf("%f", &b);
+if (b = 0);
+scanf("%f", &b);
+printf("Error\n");
+float Result = a / b;
+printf("Result = %f\n", Result);
 }
-}
+
